@@ -40,7 +40,7 @@ app.get('/api/users', function(req, res) {
   // saved!
 });
 // Send a 302 redirect towards the bot flow using refurl
-  res.redirect('https://m.me/CaudaliaWineBox?ref=mundial_welcome');
+  res.redirect('https://m.me/CaudaliaWineBox?ref=Mundial_au');
 });
 
 app.listen(port);
