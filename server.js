@@ -40,7 +40,7 @@ app.get('/view', function (req, res) {
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log(result);
-    res.send(result);
+    res.send(result)
   });
 });
 
